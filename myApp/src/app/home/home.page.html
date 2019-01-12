@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Fields
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+
+  <ion-list>
+    <ion-item (click)="showDetail(field)" *ngFor="let field of fields">
+      <ion-icon name="football"></ion-icon>
+      <ion-label>{{field.name}}-{{field.location}}</ion-label>
+    </ion-item>
+  </ion-list>
+
+  <ion-button (click)="load()">Load</ion-button>
+
+</ion-content>
