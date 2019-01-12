@@ -6,7 +6,8 @@
             "*ngFor",
             "ngFor",
             "ngSwitch",
-            "ngModel"
+            "ngModel",
+            "defaultHref"
         ],
         "doctype-first": false
     }
